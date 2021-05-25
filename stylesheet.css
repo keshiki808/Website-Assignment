@@ -1,20 +1,44 @@
-h1, header {
+h1, header, img, li {
     position: static;
     text-align: center;
     
 
 }
 
+.navBar {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+
+
+#mailingListSignup {
+    text-align: center;
+}
+
+#mailingListInputBox {
+    margin-right: 40px;
+}
+
+#emailContact {
+    margin: 12px;
+    text-align: center;
+    border: 2px;
+    background-color: black;
+    
+}
 p {
     font-size: 1.25em;
     color: antiquewhite;
     text-align: center;
-
 }
 
-img {
-    text-align: center;
+li {
+    list-style-type: none;
 }
-
-hello {|
-text-shadow: ;}
