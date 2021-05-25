@@ -11,8 +11,7 @@ h2 {
     text-decoration-color: black;
     text-decoration-thickness: 2px;
     font-style:italic;
-    font-size:larger;
-    
+    font-size:larger;   
 }
 
 img {
@@ -56,6 +55,7 @@ p q {
     opacity: 0.75;
     writing-mode: horizontal-tb;
     transform: scaleY(1.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #audioContainer{
@@ -66,23 +66,17 @@ p q {
 
 #emailBox {
     background-color: gray;
-
 }
 
 #videoContainer{
     width:100%;
     float:center;
-    
-    
 }
 
 #sub {
     width: 100px;
     height: 50px;
-    
-    
 }
-
 
 .textContainer{
     width: 750px;
@@ -90,7 +84,9 @@ p q {
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 50;
-
+    font-size: 1.05em;
+    color: antiquewhite; 
+    font-style: normal;
 }
 
 p {
