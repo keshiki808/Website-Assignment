@@ -1,8 +1,18 @@
 h1, header, img, li, audio {
     position: static;
     text-align: center;
-    
+}
 
+h2 {
+    text-align: center;
+    color: antiquewhite;
+    font-weight:bolder;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    font-style:italic;
+    font-size:larger;
+    
 }
 
 img {
@@ -11,18 +21,19 @@ img {
     margin-right: auto;
 }
 
+p q {
+    font-style: italic;
+}
+
 .navBar {
     text-align: center;
     margin: 0,;
-    padding: 0;
-       
+    padding: 0;   
 }
 
 .navbar li {
     display: inline-block;
 }
-
-
 
 #mailingListSignup {
     text-align: center;
@@ -34,33 +45,57 @@ img {
 
 #emailContact {
     width: 500px;
-    margin: 12px;
+    margin: auto;
+    padding: 5px;
     text-align: center;
     border: 2px;
+    border-color: antiquewhite;
+    border-style: dotted;
     background-color: black;
-    
-    
+    position: relative;
+    opacity: 0.75;
+    writing-mode: horizontal-tb;
+    transform: scaleY(1.1);
 }
 
 #audioContainer{
     width: 500px;
     margin:auto;
     position: relative;
+}
+
+#emailBox {
+    background-color: gray;
 
 }
+
+#videoContainer{
+    width:100%;
+    float:center;
+    
+    
+}
+
+#sub {
+    width: 100px;
+    height: 50px;
+    
+    
+}
+
 
 .textContainer{
     width: 750px;
     margin:auto;
     position: relative;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
 
 }
 
 p {
     font-size: 1.25em;
-    color: antiquewhite;
-    text-align: center;
+    color: antiquewhite;   
 }
 
 li {
