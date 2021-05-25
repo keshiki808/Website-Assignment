@@ -1,15 +1,21 @@
-h1, header, img, li {
+h1, header, img, li, audio {
     position: static;
     text-align: center;
     
 
 }
 
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navBar {
     text-align: center;
-    margin: 0;
+    margin: 0,;
     padding: 0;
-    
+       
 }
 
 .navbar li {
@@ -27,12 +33,30 @@ h1, header, img, li {
 }
 
 #emailContact {
+    width: 500px;
     margin: 12px;
     text-align: center;
     border: 2px;
     background-color: black;
     
+    
 }
+
+#audioContainer{
+    width: 500px;
+    margin:auto;
+    position: relative;
+
+}
+
+.textContainer{
+    width: 750px;
+    margin:auto;
+    position: relative;
+
+
+}
+
 p {
     font-size: 1.25em;
     color: antiquewhite;
