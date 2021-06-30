@@ -5,93 +5,95 @@
     <meta charset="UTF-8">
     <meta name="description" content="Twin Peaks fansite">
     <link rel="stylesheet" href="stylesheet.css">
-    <style> 
-    li {
-        display: inline;
-    }
-    li a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-        background-color: #111111;
-    }
-    li a:hover {
-        background-color: grey;
-    }
-    </style>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="images/Twin_Peaks_title.svg" alt="Twin Peaks"></a>
-    </header>
-    <h1 style="line-height: 2.5;">Welcome to the Twin Peaks fansite</h1>
-    <img src="images/dale-cooper-1.jpg" alt="Protagonist Dale Cooper" width="577.5" height="387.75">
-    <p style="text-align: center;"><q>Damn fine coffee</q>-Dale Cooper</p>
-    <div>&nbsp </div>
-    <div>&nbsp </div>
-    <div>&nbsp </div>
-    <div class="navBar">
-    <p style="text-decoration: underline;font-size: larger;">Navigation</p>
-    <ul style="margin-right: 100px;">
-        <li><a href="info.html">Information About The Show and History</a>
-        </li>
-        <li><a href="lynch.html">About the Director: David Lynch</a>
-        </li>
-    </ul>
-    </div>
-    <div>&nbsp </div>
-    <div>&nbsp </div>
-    <div>&nbsp </div>
-    <div class="textContainer" >
-    <p>Twin Peaks is a murder mystery television series that first premiered on April 8th, 1990 on ABC.
-        It was written and created by American novelist Mark Frost and critically acclaimed movie director David Lynch.
-        It was a huge departure from television series at the time, viewers were captivated, tuning in every week
-        to see FBI agent Dale Cooper try to find the killer of a popular high school girl in a rural American community.
-        It garnered a cult following after the series ended and in contemporary times is considered one of the greatest TV
-        shows of all time by reviewers.
-    </p>
-    <p>Use the navigation list above to find more information about the show or about the director, David Lynch.
-        Check out the bottom of the page to join the mailing list or find additional official links to the show's homepage, IMDB page, and social media links.
-    </p>
-    </div>
-    <div>&nbsp </div>
-    <div>&nbsp </div>
-    <div id="mailingListSignup">
-    <p>Join the mailing list:</p>
-    <form action="mailinglistsuccess.html" method="post">
-        <label>Email</label>
-        <input id="mailingListInputBox" name="email">
-        <div style="padding: 5px;">
-        <button>Sign up</button>
-        </div>
-    </form>
-    </div>
-    <footer>
-        <div id="audioContainer">
-        <audio controls style="width: 100%"><source src="audio/Laura Palmer theme - Twin Peaks OST.mp3"></audio>
-        </div>
-        <p  style="text-align: center;">Official links</p>
-        <div class="navBar">
-        <ul>
-            <li><a href="https://www.sho.com/twin-peaks">Official site</a>
+    <a href="index.html"><img src="images/Twin_Peaks_title.svg" alt="Twin Peaks"></a>
+    <div class="top-nav">
+        <p style="text-decoration: underline;font-size: larger;">Navigation </p>
+        <ul class="nav-container">
+            <li><a href="info.html">Information About The Show and History </a>
             </li>
-            <li><a href="https://www.imdb.com/title/tt0098936/">Original series IMDB page</a>
+            <li><a href="lynch.html">About the Director: David Lynch </a>
             </li>
-            <li><a href="https://twitter.com/sho_twinpeaks?lang=en">Twin Peaks Official Twitter</a>
+            <li><a href="#"> The Shop </a>
+            </li>
+            <li><a href="#"> Future of the show </a>
             </li>
         </ul>
+    </div>
+   
+      <div class = "grid-wrapper">
+        
+        <div class = "center grid-item">
+            <img src="images/dale-cooper-1.jpg" alt="Protagonist Dale Cooper" width="577.5" height="387.75">
+            <p style="text-align: center;"><q>Damn fine coffee</q>-Dale Cooper</p>
+
+        </div> 
+        <div class = "main grid-item">
+            <p>Twin Peaks is a murder mystery television series that first premiered on April 8th, 1990 on ABC.
+                It was written and created by American novelist Mark Frost and critically acclaimed movie director David Lynch.
+                It was a huge departure from television series at the time, viewers were captivated, tuning in every week
+                to see FBI agent Dale Cooper try to find the killer of a popular high school girl in a rural American community.
+                It garnered a cult following after the series ended and in contemporary times is considered one of the greatest TV
+                shows of all time by reviewers.
+            
+                Use the navigation list above to find more information about the show or about the director, David Lynch.
+                Check out the bottom of the page to join the mailing list or find additional official links to the show's homepage, IMDB page, and social media links.
+            </p>
         </div>
-        <div>&nbsp </div>
-        <div>&nbsp </div>
-        <div id="emailContact">
-        <p>Questions? Comments?</p>
-        <div id="emailBox">
-        <a href="mailto:fakeemail123@testsite.com">fakeemail123@testsite.com</a>
-        </div>
-        </div>
-    </footer>
+
+        <div class = "merchandise grid-item">
+            <h1 style="text-align: center;">Merchandise</h1>
+            <img style="margin-top: 25px;" src="images/Merchandise.jpg" alt="Merchandise" width="250" height="220">
+            <img style="margin-top: 25px;"src="images/Merchandise2.jpg" alt="Merchandise" width="250" height="220">
+
+            
+        </div> 
+        <div class = "mailinglist grid-item">
+            <div style="margin-top: 100px;" id="mailingListSignup">
+                <p>Join the mailing list:</p>
+                <form action="mailinglistsuccess.html" method="post">
+                    <label style="color:white">Email</label>
+                    <input id="mailingListInputBox" name="email">
+                    <div style="padding: 5px;">
+                    <button>Sign up</button>
+                    </div>
+                </form>
+                </div>
+        </div> 
+        <div class = "links grid-item">
+            <div class="bottomNav">
+                <p  style="text-align: center;">Official links</p>
+                <ul class="nav-container">
+                    <li><a href="https://www.sho.com/twin-peaks">Official site</a>
+                    </li>
+                    <li><a href="https://www.imdb.com/title/tt0098936/">Original series IMDB page</a>
+                    </li>
+                    <li><a href="https://twitter.com/sho_twinpeaks?lang=en">Twin Peaks Official Twitter</a>
+                    </li>
+                </ul>
+                </div>
+
+        </div> 
+        <div class = "email grid-item">
+            <div id="emailContact">
+                <p>Questions? Comments?</p>
+                <div id="emailBox">
+                <a href="mailto:fakeemail123@testsite.com">fakeemail123@testsite.com</a>
+                </div>
+                </div>
+
+        </div> 
+
+        <div class = "music grid-item">
+            <div style="margin-top: 35px;" id="audioContainer">
+                <audio controls style="width: 100%"><source src="audio/Laura Palmer theme - Twin Peaks OST.mp3"></audio>
+                </div>
+            
+        </div> 
+    </div>
+    
 </body>
 
 </html>
+
